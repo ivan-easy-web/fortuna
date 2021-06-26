@@ -16,6 +16,12 @@ div {
     overflow: hidden;
 }
 
+@media (min-width: 768px) {
+    .header {
+        max-height: 97px !important;
+    }
+}
+
 .spacer {
     height: 119px;
 }
