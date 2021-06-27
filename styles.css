@@ -264,3 +264,24 @@ p {
 .apartment-info .info .list1 {
     padding: 0 20px;
 }
+
+
+.colored-list {
+    list-style: none;
+}
+
+.colored-list svg {
+    color: blueviolet;
+}
+
+.go-top-button {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    z-index: 1001;
+    text-align: right;
+}
+
+.go-top-button a {
+    color: blueviolet;
+}
