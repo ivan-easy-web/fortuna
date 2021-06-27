@@ -177,6 +177,11 @@ p {
     text-decoration: none;
 }
 
+.a-number:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .menu ul {
     list-style: none;
     padding: 0;
@@ -283,12 +288,14 @@ p {
     color: blueviolet;
 }
 
+
 .go-top-button {
     position: fixed;
     bottom: 10px;
-    width: 100%;
+    right: 10px;
     z-index: 1001;
-    text-align: right;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .go-top-button a {
@@ -298,4 +305,12 @@ p {
 
 .oplata-page .colored-list {
     padding: 0;
+}
+
+.contacts-page a {
+    color: blueviolet;
+}
+
+.contacts-page a:hover {
+    color: blueviolet;
 }
