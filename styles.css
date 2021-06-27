@@ -23,12 +23,12 @@ div {
 }
 
 .spacer {
-    height: 119px;
+    height: 124px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .spacer {
-        height: 95px;
+        height: 97px;
     }
 }
 
@@ -207,10 +207,60 @@ p {
 
 .card-container .card a {
     background-color: blueviolet;
+    border: none;
 }
 
 
 .card-image {
     height: 300px;
     background-size: cover;
+}
+
+
+/*-------------------------*/
+
+.photos {
+    margin-top: 40px;
+}
+
+.photos .item {
+    height: 500px;
+    background-size: cover;
+}
+
+.apartment-info .info span{
+    color: blueviolet;
+    font-size: large;
+}
+
+.apartment-info .info .list {
+    list-style: none;
+    padding: 0;
+}
+
+.apartment-info .info .list li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.apartment-info .info .list svg {
+    color: blueviolet;
+}
+
+.apartment-info .info .tab-pane {
+    margin-top: 10px;
+}
+
+.apartment-info .info .nav-link {
+    color: blueviolet;
+}
+
+.apartment-info .info .nav-item  .active {
+    color: white;
+    background: blueviolet;
+}
+
+.apartment-info .info .list1 {
+    padding: 0 20px;
 }
