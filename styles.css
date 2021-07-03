@@ -294,9 +294,23 @@ p {
     bottom: 10px;
     right: 10px;
     z-index: 1001;
+}
+
+.go-top-button .item {
     background-color: white;
     border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
 }
+
+.go-top-button .item1 {
+    background-color: blueviolet;
+    color: white;
+    padding-top: 4px;
+    margin-bottom: 5px;
+}
+
 
 .go-top-button a {
     color: blueviolet;
@@ -312,5 +326,9 @@ p {
 }
 
 .contacts-page a:hover {
+    color: blueviolet;
+}
+
+.links-modal a {
     color: blueviolet;
 }
